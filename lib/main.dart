@@ -1,4 +1,4 @@
-import 'package:bookly/constants.dart';
+import 'constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +17,7 @@ class BooklyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bookly',
       home: const SplashView(),
-      theme: ThemeData().copyWith(
+      theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: kPrimaryColor,
       ),
     );
